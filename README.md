@@ -16,4 +16,4 @@ filter() para selecionar apenas os itens desejados.
 <li>✅ Valor total de lanches veganos 🌱</li>
 <li>✅ Valor total de lanches de carne 🥩</li>
 </ul>
-<img src"">
+<img src="https://github.com/ricardotramiro/DevBurger/blob/main/assets.img/capa%20github.png?raw=true">

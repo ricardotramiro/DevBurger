@@ -23,7 +23,7 @@ function showAll(productsArray) {
     <li>
         <img src=${product.src}>
         <p>${product.name}</p>
-        <p class="price">R$ ${formatCurrency(product.price)}</p>
+        <p class="price">${formatCurrency(product.price)}</p>
       </li>
     `;
   });
@@ -71,16 +71,16 @@ function showAmount() {
 
   summary.innerHTML = `
   <li>
-  <p>Valor total dos lanches <span style="color: #ffd100"> R$ ${formatCurrency(total)}</span></p>
+  <p>Valor total dos lanches <span style="color: #ffd100">${formatCurrency(total)}</span></p>
   </li>
   <li>
-   <p>Valor total dos lanches com 10% de desconto <span style="color: #ffd100"> R$ ${totalDiscont}</span></p>
+   <p>Valor total dos lanches com 10% de desconto <span style="color: #ffd100">${formatCurrency(totalDiscont)}</span></p>
   </li>
   <li>
-<p>Valor total lanches Veganos <span style="color: #ffd100"> R$ ${totalVegans}</span></p>
+<p>Valor total lanches Veganos <span style="color: #ffd100">${formatCurrency(totalVegans)}</span></p>
   </li>
   <li>
-<p>Valor total lanches com Carne <span style="color: #ffd100"> R$ ${totalMeats}</span></p>
+<p>Valor total lanches com Carne <span style="color: #ffd100">${formatCurrency(totalMeats)}</span></p>
   </li>
   `;
 }
